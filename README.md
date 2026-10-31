@@ -18,14 +18,15 @@
 
 | 파일 | 용도 |
 | --- | --- |
-| AGENTS.md | 위 흐름과 문서·검증 규칙 |
-| START.md | 제공 Codex에 전달할 시작 요청과 테스트 결과 전달 예시 |
+| [AGENTS.md](AGENTS.md) | 위 흐름과 문서·검증 규칙 |
+| [START.md](START.md) | 제공 Codex에 전달할 시작 요청과 테스트 결과 전달 예시 |
 | [PROMPTS.md](PROMPTS.md) | 계획·구현·검증·사용자 테스트·상세 문서 작성의 단계별 요청문. AI 허용 단계에서만 사용 |
-| templates/PLAN.md | 구현 전에 작성하는 계획 |
-| templates/USER_TEST.md | 사용자 기능 테스트의 절차·결과·판본 기록 |
-| templates/IMPLEMENTATION.md | 사용자 테스트 완료 후 작성하는 구현 상세 설명 |
-| templates/WORKLOG.md | 중요한 결정·수정·검증·현재 상태 |
-| FINISH.md | 문서와 실제 구현·제출 상태 점검 |
+| [templates/PLAN.md](templates/PLAN.md) | 구현 전에 작성하는 계획 |
+| [templates/USER_TEST.md](templates/USER_TEST.md) | 사용자 기능 테스트의 절차·결과·판본 기록 |
+| [templates/IMPLEMENTATION.md](templates/IMPLEMENTATION.md) | 사용자 테스트 완료 후 작성하는 구현 상세 설명 |
+| [templates/WORKLOG.md](templates/WORKLOG.md) | 중요한 결정·수정·검증·현재 상태 |
+| [FINISH.md](FINISH.md) | 문서와 실제 구현·제출 상태 점검 |
+| [LICENSE](LICENSE) | MIT 라이선스 |
 
 양식 전체를 매번 다시 읽거나 불필요한 항목을 억지로 채우지 않습니다. 실제 과제에서 요구한 문서 이름·형식·내용이 우선입니다. 준비 문서는 필수 제출물을 대체하지 않습니다.
 
@@ -40,7 +41,7 @@ git clone https://github.com/CLM-BONNY/cofa-exam-harness.git
 codex
 ```
 
-실제 과제 폴더에서 Codex를 실행하고 START.md의 시작 요청을 전달하세요. clone 위치가 다르면 경로를 바꿉니다. 하위 폴더의 AGENTS.md가 과제 전체에 자동 적용된다고 가정하지 않고 명시적으로 읽게 합니다. 기존 지침을 복사본으로 덮어쓰지 않습니다.
+실제 과제 폴더에서 Codex를 실행하고 [START.md](START.md)의 시작 요청을 전달하세요. clone 위치가 다르면 경로를 바꿉니다. 하위 폴더의 [AGENTS.md](AGENTS.md)가 과제 전체에 자동 적용된다고 가정하지 않고 명시적으로 읽게 합니다. 기존 지침을 복사본으로 덮어쓰지 않습니다.
 
 이후에는 [PROMPTS.md](PROMPTS.md)에서 현재 단계에 필요한 요청만 선택하거나 해당 절을 읽도록 요청합니다. 작업 환경 내 복사·붙여넣기는 실제 과제의 허용 범위를 따릅니다. 후속 서술형 등 AI 금지 단계에서는 사용하지 않습니다.
 
